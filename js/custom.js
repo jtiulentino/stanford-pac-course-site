@@ -1,5 +1,5 @@
 (function($) {
-    var extra_offset = 50;
+    var extra_offset = 30;
 
     // jQuery for page scrolling feature. Requires jQuery Easing plugin.
     $(document).on('click', 'a.page-scroll', function(event) {

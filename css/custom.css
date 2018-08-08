@@ -12,17 +12,16 @@ nav {
 	background: rgb(255, 255, 255, 1.0)
 }
 
-.navbar-brand a {
+a {
 	color: rgb(140, 21, 21, 0.6);
 }
 
-.navbar-brand a:hover {
+a:hover {
 	color: rgb(140, 21, 21, 0.8);
 	text-decoration: none;
 }
 
 .container {
-	font-size: 250%;
 	height: 100%;
   	height: 90vh;
   	margin-left: 10%;
@@ -30,12 +29,31 @@ nav {
   	padding-top: 10vh;
 }
 
-#course-title h1 {
-	font-size: 2.25em;
+.title {
+	font-size: 250%;
 }
 
-#course-title h2 {
+small {
+	color: rgb(0, 0, 0, 0.5);
+	font-size: 70%;
+}
+
+.text-box {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: large;
+	padding: 20px;
+}
+
+#cover h1 {
+	font-size: 2em;
+}
+
+#cover h2 {
 	font-size: 1.5em;
+}
+
+#cover h3 {
+	font-size: 1em;
 }
 
 #instructors {
