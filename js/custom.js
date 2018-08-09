@@ -1,5 +1,5 @@
 (function($) {
-    var extra_offset = 30;
+    var extra_offset = $(window).height() * 0.04;
 
     // jQuery for page scrolling feature. Requires jQuery Easing plugin.
     $(document).on('click', 'a.page-scroll', function(event) {
@@ -16,7 +16,7 @@
     });
 
     // Offset for Main Navigation
-    $('#course-title').affix({
+    $('#cover').affix({
         offset: {
             top: extra_offset
         }

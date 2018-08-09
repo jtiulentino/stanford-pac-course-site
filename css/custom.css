@@ -6,6 +6,7 @@ html, body {
 h1 {
 	color: rgb(140, 21, 21, 1.0);
 	font-size: 1.5em;
+	padding-bottom: 2vh;
 }
 
 nav {
@@ -21,12 +22,8 @@ a:hover {
 	text-decoration: none;
 }
 
-.container {
-	height: 100%;
-  	height: 90vh;
-  	margin-left: 10%;
-  	margin-right: 10%;
-  	padding-top: 10vh;
+.site-section {
+  	padding-top: 5vh;
 }
 
 .title {
@@ -38,10 +35,9 @@ small {
 	font-size: 70%;
 }
 
-.text-box {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: large;
-	padding: 20px;
+#cover {
+	/* Causes issues with divs overlapping during resize */
+ 	/*height: 90vh;*/ 
 }
 
 #cover h1 {
@@ -52,8 +48,14 @@ small {
 	font-size: 1.5em;
 }
 
-#cover h3 {
+h3 {
 	font-size: 1em;
+}
+
+.text-box {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: large;
+	padding: 3vh;
 }
 
 #instructors {
