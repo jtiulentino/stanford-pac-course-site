@@ -22,4 +22,14 @@
         }
     })
 
+    // jQuery for project card flipping animation.
+    $( ".flip-card" ).hover(
+        function() {
+            $(this).flip();
+        }, function() {
+            $(this).flip();
+        }
+    );
+
 })(jQuery)
+
