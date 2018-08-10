@@ -18,8 +18,6 @@ a:hover {
 
 h1 {
 	color: rgba(140, 21, 21, 1.0);
-	font-size: 1.25em;
-	padding-bottom: 2vh;
 }
 
 .navbar-nav .open .dropdown-menu {
@@ -32,16 +30,12 @@ h1 {
 
 .title {
 	font-size: 250%;
+	padding-bottom: 2vh;
 }
 
 small {
 	color: rgba(0, 0, 0, 0.5);
 	font-size: 70%;
-}
-
-#cover {
-	/* Causes issues with divs overlapping during resize */
- 	/*height: 90vh;*/ 
 }
 
 #cover h1 {
@@ -52,13 +46,8 @@ small {
 	font-size: 1.5em;
 }
 
-h3 {
+#cover h3 {
 	font-size: 1em;
-}
-
-.text-box {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: large;
 }
 
 #instructors {
@@ -69,3 +58,13 @@ h3 {
 	width: 280px;
 	height: 160px;
 }
+
+#course-desc {
+	font-size: 1em;
+}
+
+.apply > a {
+	font-size: 140%;
+}
+
+
