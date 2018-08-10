@@ -4,22 +4,22 @@ html, body {
 }
 
 h1 {
-	color: rgb(140, 21, 21, 1.0);
+	color: rgba(140, 21, 21, 1.0);
 	font-size: 1.25em;
 	padding-bottom: 2vh;
 }
 
 nav {
-	background: rgb(255, 255, 255, 1.0);
+	background: rgba(255, 255, 255, 1.0);
 	height: 5vh;
 }
 
 a {
-	color: rgb(140, 21, 21, 0.6);
+	color: rgba(140, 21, 21, 0.6);
 }
 
 a:hover {
-	color: rgb(140, 21, 21, 0.8);
+	color: rgba(140, 21, 21, 0.8);
 	text-decoration: none;
 }
 
@@ -32,7 +32,7 @@ a:hover {
 }
 
 small {
-	color: rgb(0, 0, 0, 0.5);
+	color: rgba(0, 0, 0, 0.5);
 	font-size: 70%;
 }
 
