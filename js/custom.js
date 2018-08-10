@@ -10,26 +10,8 @@
         event.preventDefault();
     });
 
-    // Closes the Responsive Menu on Menu Item Click
-    $('.navbar-collapse ul li a').click(function() {
-        $('.navbar-toggle:visible').click();
+    // Closes the dropdown menu on item click
+    $('.navbar-nav > li > a').on('click', function() {
+        $('.navbar-collapse').collapse('hide');
     });
-
-    // Offset for Main Navigation
-    $('#cover').affix({
-        offset: {
-            top: extra_offset
-        }
-    })
-
-    // jQuery for project card flipping animation.
-    $( ".flip-card" ).hover(
-        function() {
-            $(this).flip();
-        }, function() {
-            $(this).flip();
-        }
-    );
-
 })(jQuery)
-
