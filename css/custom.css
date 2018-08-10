@@ -11,7 +11,6 @@ h1 {
 
 nav {
 	background: rgba(255, 255, 255, 1.0);
-	height: 5vh;
 }
 
 a {
@@ -21,6 +20,10 @@ a {
 a:hover {
 	color: rgba(140, 21, 21, 0.8);
 	text-decoration: none;
+}
+
+.navbar-nav .open .dropdown-menu {
+	background-colo: rgba(255, 255, 255, 1.0);
 }
 
 .site-section {
