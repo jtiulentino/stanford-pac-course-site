@@ -3,12 +3,6 @@ html, body {
     margin: 0;
 }
 
-h1 {
-	color: rgba(140, 21, 21, 1.0);
-	font-size: 1.25em;
-	padding-bottom: 2vh;
-}
-
 nav {
 	background: rgba(255, 255, 255, 1.0);
 }
@@ -22,12 +16,18 @@ a:hover {
 	text-decoration: none;
 }
 
+h1 {
+	color: rgba(140, 21, 21, 1.0);
+	font-size: 1.25em;
+	padding-bottom: 2vh;
+}
+
 .navbar-nav .open .dropdown-menu {
 	background-color: rgba(255, 255, 255, 1.0);
 }
 
 .site-section {
-  	padding-top: 5vh;
+	padding-top: 5vh;
 }
 
 .title {
