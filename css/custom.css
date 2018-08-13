@@ -59,9 +59,13 @@ small {
 	height: 160px;
 }
 
-#teaching-assistants img {
+#assistants img {
 	width: 150px;
 	height: 150px;
+}
+
+#projects img {
+	width: 100%;
 }
 
 #course-desc {
