@@ -59,6 +59,11 @@ small {
 	height: 160px;
 }
 
+#teaching-assistants img {
+	width: 150px;
+	height: 150px;
+}
+
 #course-desc {
 	font-size: 1em;
 }
