@@ -50,9 +50,9 @@ small {
 	font-size: 1em;
 }
 
-#instructors {
+/*#instructors {
 	height: 95vh;
-}
+}*/
 
 #instructors img {
 	width: 280px;
@@ -68,6 +68,11 @@ small {
 	width: 100%;
 }
 
+#projects a:hover {
+	transition: all 0.5s ease;
+	opacity: 0.5;
+}
+
 #course-desc {
 	font-size: 1em;
 }
@@ -75,5 +80,3 @@ small {
 .apply > a {
 	font-size: 140%;
 }
-
-
